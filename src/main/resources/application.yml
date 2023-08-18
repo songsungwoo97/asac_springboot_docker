@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -12,18 +11,4 @@ spring:
     properties:
       hibernate:
         format_sql: true
-=======
-spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/asacdb?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
-    username: root
-    password: root1234
-  jpa:
-    show-sql: true
-    hibernate:
-      ddl-auto: create
-    properties:
-      hibernate:
-        format_sql: true
->>>>>>> e997f99ca410d0d6d7f04789bb796da7ed8e6d69
+
